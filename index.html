@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>25 + 5 Clock: JavaScript</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/JavaScript" src="app.js" ></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="shortcut icon" href="#">
+    
+    
+    
+</head> 
+    <body>
+        <div id="app">        
+                        
+            <div class="container">
+                
+                <div class="row">
+                    <h1 class="text-center p-5 text-warning">25 + 5 Clock by KingGoku90</h1>        
+                    <div class="col-md-6">
+                        <div class="card mb-4 shadow-sm bg-warning">
+                            <div id="break-label" class="card-header text-center bg-secondary">Break Length</div>
+                            <div class="card-body text-center mx-auto">
+                                <h5 class="card-text">                                    
+                                    <div id="break-length"></div>
+                                </h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-md btn-outline-secondary bg-black" id="break-decrement">-</button>
+                                    <button type="button" class="btn btn-md btn-outline-secondary bg-black" id="break-increment">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 shadow-sm bg-warning">
+                        <div id="session-label" class="card-header text-center bg-secondary">Session Length</div>
+                        <div class="card-body bg-warning mx-auto text-center">
+                            <h5 class="card-text">                         
+                                <div id="session-length">25</div>
+                            </h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-md btn-outline-secondary bg-black" id="session-decrement">-</button>
+                                    <button type="button" class="btn btn-md btn-outline-secondary bg-black" id="session-increment">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="card mb-4 shadow-sm bg-warning">
+                        <div id="timer-label" class="card-header text-center bg-secondary">Session</div>            
+                        
+                        <div class="card-body bg-warning mx-auto text-center">
+                            <h5 class="card-text">
+                                <div id="time-left"></div>
+                            </h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-md btn-outline-secondary mx-auto bg-black" id="start_stop">Start/Stop</button>
+                                    <button type="button" class="btn btn-md btn-outline-secondary mx-auto bg-black" id="reset">Reset</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <audio id="beep" preload="auto" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"></audio>
+    
+     
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        
+    
+    </body>
+</html>

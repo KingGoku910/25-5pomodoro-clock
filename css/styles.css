@@ -1,0 +1,12 @@
+body {
+    background: fixed;
+    background-color: black;
+}
+
+button {
+    align-content: center;
+}
+
+#session-increment, #session-decrement {
+    align-items: center;
+}
